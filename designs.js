@@ -1,5 +1,7 @@
 let myColor = '';
-// Select color input
+/**
+* @description Select color input
+*/
 function getColor(evt) {
     console.log("getColor");
     myColor = $(this).val();
@@ -8,7 +10,9 @@ function getColor(evt) {
     // console.log(evt.data);
 }
 
-// When size is submitted by the user, call makeGrid()
+/**
+* @description When size is submitted by the user, call makeGrid()
+*/
 function makeGrid(evt) {
 // Your code goes here!
     // console.log(evt);
